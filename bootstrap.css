@@ -1,142 +1,47 @@
-* {
-    margin: 0;
-}
-
 body {
-    background: url(../images/gravel/gravel.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    /* width: 960px; */
-    margin: auto;
-}
-
-.container {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-    border-color: #dddddd;
-    padding: 0;
-}
-
-.name {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 22px;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    padding: 2%;
-    height: 20px;
-    float: left;
-    width:20%;
-}
-
-section {
-    background-color: #ffffff;
-    padding: 15px;
-    overflow: auto;
-}    
-
-header {
-    width: 100%;
-    overflow: auto;
-    background-color: #ffffff;
-    border-bottom-style: solid;
-    border-bottom-color: #cccccc;
+    background: url(images/gravel/gravel.png);
 }
 
 nav {
-    font-family: Arial, Helvetica, sans-serif;
-    float: right;
-    padding: 1%;
-}
-
-nav a {
-    text-decoration: none;
-    color: #666666;
-    display: inline-block;
-    padding: 3px;
-}
-
-h1 {
-    padding: 15px;
-    border-bottom: 2px;
-    border-bottom-color:#dddddd ;
+    border-bottom-color: grey;
     border-bottom-style: solid;
-    color: #4aaaa5;
+    border-width: 1px;
+}
+
+.navbar-brand {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 22px;
-}
-
-img {
-    height: 200px;
-    width: 230px;
-    float: left;
-    padding: 2%;
-}
-
-p {
-    color: #777777;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 2%;
-}
-
-form {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
+    background-color: #4aaaa5;
+    color: #ffffff;
     padding: 1%;
 }
 
-.button {
-    color: #ffffff;
+.container {
+    background-color: white;
+}
+
+h2 {
+    background-color: #ffffff;
+    color: #4aaaa5;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: 2px;
+}
+
+.btn {
     background-color: #4aaaa5;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
-.portfolio {
-    position: relative;
+.card-text {
+    background-color: #4aaaa5;
+    color: white
 }
 
-
-
-#hangman {
-    height: 150px;
-    width: 200px;
-}
-
-#rpg {
-    height: 150px;
-    width: 200px;
-}
-
-#trivia {
-    height: 150px;
-    width: 200px;
-}
-
-#widget {
-    height: 150px;
-    width: 200px;
-}
-
-#rock {
-    height: 150px;
-    width: 200px;
-}
-
-.foot {
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
-    height: 15px;
-    color: #ffffff;
-    background-color:#666666 ;
-    border-top-style: solid;
-    border-top-color: #4aaaa5;
-    border-top-width: 8px;
+.footer {
     text-align: center;
-    font-size: 10px;
-    padding-top: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 4px;
+    height: 40px;
 }
